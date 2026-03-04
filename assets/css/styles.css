@@ -560,9 +560,10 @@ body.modal-open {
   padding: 0.7rem 0.85rem;
 }
 
-.devis-list i {
+.devis-list .devis-icon {
   width: 1.95rem;
   height: 1.95rem;
+  font-size: 1.1rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
