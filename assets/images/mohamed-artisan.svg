@@ -1,0 +1,14 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Photo artisan plombier">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a4d8c"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="200" fill="url(#bg)"/>
+  <circle cx="200" cy="155" r="72" fill="#f3d6b5"/>
+  <path d="M105 330C115 255 155 235 200 235C245 235 285 255 295 330" fill="#1f2937"/>
+  <rect x="132" y="250" width="136" height="90" rx="16" fill="#f9fafb"/>
+  <path d="M115 130C115 86 150 55 200 55C250 55 285 86 285 130V155H115V130Z" fill="#111827"/>
+  <text x="200" y="305" text-anchor="middle" fill="#0a4d8c" font-family="Arial, sans-serif" font-size="28" font-weight="700">MP</text>
+</svg>

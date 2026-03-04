@@ -1,0 +1,48 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fond plomberie moderne et industrielle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1726"/>
+      <stop offset="100%" stop-color="#1f3a5a"/>
+    </linearGradient>
+    <linearGradient id="pipe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.26">
+    <circle cx="240" cy="180" r="180" fill="#38bdf8"/>
+    <circle cx="1320" cy="740" r="220" fill="#2dd4bf"/>
+  </g>
+
+  <g opacity="0.82">
+    <rect x="0" y="180" width="1600" height="34" rx="17" fill="url(#pipe)"/>
+    <rect x="0" y="430" width="1600" height="34" rx="17" fill="url(#pipe)"/>
+    <rect x="0" y="680" width="1600" height="34" rx="17" fill="url(#pipe)"/>
+
+    <rect x="260" y="0" width="28" height="900" rx="14" fill="url(#pipe)"/>
+    <rect x="760" y="0" width="28" height="900" rx="14" fill="url(#pipe)"/>
+    <rect x="1260" y="0" width="28" height="900" rx="14" fill="url(#pipe)"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="274" cy="197" r="25" fill="url(#accent)"/>
+    <circle cx="774" cy="447" r="25" fill="url(#accent)"/>
+    <circle cx="1274" cy="697" r="25" fill="url(#accent)"/>
+    <circle cx="274" cy="447" r="20" fill="#f59e0b"/>
+    <circle cx="1274" cy="197" r="20" fill="#f59e0b"/>
+  </g>
+
+  <g opacity="0.45" stroke="#cbd5e1" stroke-width="2">
+    <path d="M80 120H360V280H580"/>
+    <path d="M980 620H1220V420H1490"/>
+    <path d="M540 780H760V560H980"/>
+  </g>
+</svg>
