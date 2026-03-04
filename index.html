@@ -61,7 +61,7 @@
     </div>
     <header>
       <div class="container nav-wrap">
-        <a class="logo" href="/">Mohamed Plombier Dijon</a>
+        <a class="logo" href="index.html">Mohamed Plombier Dijon</a>
         <nav aria-label="Navigation principale">
           <ul>
             <li><a href="index.html">Accueil</a></li>
@@ -69,7 +69,7 @@
             <li><a href="zones.html">Zones d'intervention</a></li>
             <li><a href="portfolio/index.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a class="cta" href="tel:+33380000000">Urgence plomberie</a></li>
+            <li><a class="cta" href="#devis-popup" data-devis-open>Demande de devis</a></li>
           </ul>
         </nav>
       </div>
@@ -91,7 +91,7 @@
               <div class="stat"><strong>1 seul</strong> artisan référent</div>
               <div class="stat"><strong>4.9/5</strong> satisfaction client</div>
             </div>
-            <p><a class="button" href="contact.html">Demander un devis gratuit</a></p>
+            <p><a class="button" href="#devis-popup" data-devis-open>Demander un devis gratuit</a></p>
           </div>
           <aside class="hero-card" aria-label="Engagements qualité">
             <div class="artisan-photo-wrap" aria-hidden="true">
@@ -161,6 +161,32 @@
         </div>
       </section>
     </main>
+    <div class="devis-modal" id="devis-popup" role="dialog" aria-modal="true" aria-labelledby="devis-title" aria-hidden="true">
+      <div class="devis-modal__backdrop" data-devis-close></div>
+      <div class="devis-modal__content">
+        <button class="devis-modal__close" type="button" aria-label="Fermer la fenêtre" data-devis-close>×</button>
+        <h2 id="devis-title">Demande de devis</h2>
+        <p>Contactez directement Mohamed pour obtenir un devis rapide et personnalisé :</p>
+        <ul class="devis-list">
+          <li>
+            <span class="devis-icon material-symbols-rounded" aria-hidden="true">call</span>
+            <span><strong>Téléphone</strong><a href="tel:+33380000000">03 80 00 00 00</a></span>
+          </li>
+          <li>
+            <span class="devis-icon material-symbols-rounded" aria-hidden="true">mail</span>
+            <span><strong>Email</strong><a href="mailto:contact@mohamed-plombier-dijon.fr">contact@mohamed-plombier-dijon.fr</a></span>
+          </li>
+          <li>
+            <span class="devis-icon material-symbols-rounded" aria-hidden="true">location_on</span>
+            <span><strong>Adresse</strong>12 Rue de la Liberté, 21000 Dijon</span>
+          </li>
+          <li>
+            <span class="devis-icon material-symbols-rounded" aria-hidden="true">schedule</span>
+            <span><strong>Disponibilité</strong>24h/24 - 7j/7</span>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <footer>
       <div class="container footer-grid">
